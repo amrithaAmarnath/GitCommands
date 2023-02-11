@@ -1,3 +1,6 @@
+git config --global user.name "Amritha Amarnath"      +> to create account
+git config --global user.email "amritha1187@gmail.com"
+
 git init  => initializing git repository in pwd
 
 git status  => list all untracked files (untracked files-> present in local storage not in local repository)
@@ -5,4 +8,24 @@ git status  => list all untracked files (untracked files-> present in local stor
 git add -A  => add All changes to staging area
 
 git commit -m "msg" => adding staged files to local repository
+
+"""
+Create  github account and login
+
+Click Create repository button
+
+Give a name to repo and click create repository button 
+
+copy the url of created repo
+
+Go to the file to git project folder and take 'Git bash here' menu
+"""
+
+git remote add lab https://github.com/amrithaAmarnath/GitCommands.git   ==> add remote to local with reference name lab for the url
+
+git remote -v   ==>list out the added repo
+
+git push lab master  ==> push the files or changes to remote repo github
+
+
 
