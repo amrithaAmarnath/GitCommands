@@ -21,11 +21,13 @@ copy the url of created repo
 Go to the file to git project folder and take 'Git bash here' menu
 """
 
-git remote add lab https://github.com/amrithaAmarnath/GitCommands.git   ==> add remote to local with reference name lab for the url
+git remote add lab path   ==> add remote to local with reference name lab for the path url https://github.com/amrithaAmarnath/GitCommands.git
 
 git remote -v   ==>list out the added repo
 
-git push lab master  ==> push the files or changes to remote repo github
+git push lab master  ==> push the files or changes to remote repo github master branch
+
+git  log ==> show all logs regarding commit
 
 
 
