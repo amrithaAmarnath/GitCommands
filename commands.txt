@@ -1,0 +1,8 @@
+git init  => initializing git repository in pwd
+
+git status  => list all untracked files (untracked files-> present in local storage not in local repository)
+
+git add -A  => add All changes to staging area
+
+git commit -m "msg" => adding staged files to local repository
+
